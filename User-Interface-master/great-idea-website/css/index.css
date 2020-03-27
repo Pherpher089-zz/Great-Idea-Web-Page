@@ -23,6 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -54,7 +55,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -65,43 +67,51 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container{
-  width: 750px;
+  width: 900px;
   margin: 0 auto;
 }
-.nav{
+.nav a{
 	
 	display: inline-block;
-	
+	font-size: 2rem;
 	margin: 30px 0px 30px 0px;
+	text-decoration: none;
+	color: grey;
 }
 .logo{
-	margin: 20 0px 20px 0px;
+	display: inline-block;
+	/* margin: 20 20px 20px 0px; */
 	float: right;
 }
 
 .headContentBox{
+	width: 100%;
 	margin: 100;
-	text-align: center;
+	/* text-align: center; */
 	box-sizing: border-box;
 	display: inline-block;
 }
 
 .headContent{
 	display: inline-block;
-	
+	text-align: center;
 }
+
+
 .headContent h2{
 	font-size: 30px;
 }
 
 .headContentText{
-	display: inline-block;
-	margin: auto;
+	/* display: inline-block; */
+	margin-left: 5rem;
 	text-align: center;
 	margin-top: 100px;
+	text-decoration:
 }
 
 .headImage{
+	margin-right: 5rem;
 	float: right;
 }
 
